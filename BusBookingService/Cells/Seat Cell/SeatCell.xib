@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="seatCell" id="gTV-IL-0wX" customClass="SeatCell" customModule="BusBookingService" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="103" height="125"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="103" height="125"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gZT-pQ-Rna">
+                        <rect key="frame" x="0.0" y="0.0" width="103" height="125"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6US-7T-99X">
+                                <rect key="frame" x="5" y="5" width="93" height="93"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="6US-7T-99X" secondAttribute="height" multiplier="1:1" id="v4u-jw-Y8F"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JeS-Le-SeG">
+                                <rect key="frame" x="5" y="103" width="93" height="17"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fyg-8g-oMp">
+                                        <rect key="frame" x="31" y="0.0" width="31" height="17"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="17" id="Xq4-hL-MMd"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                        <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="fyg-8g-oMp" firstAttribute="centerY" secondItem="JeS-Le-SeG" secondAttribute="centerY" id="JKZ-FL-YFy"/>
+                                    <constraint firstItem="fyg-8g-oMp" firstAttribute="centerX" secondItem="JeS-Le-SeG" secondAttribute="centerX" id="icZ-R8-HQa"/>
+                                </constraints>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bqZ-ea-X5C">
+                                <rect key="frame" x="5" y="5" width="93" height="93"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="bqZ-ea-X5C" secondAttribute="height" multiplier="1:1" id="w8t-PV-2qh"/>
+                                </constraints>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <connections>
+                                    <action selector="seatBtnTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="WV8-nK-QBi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="6US-7T-99X" secondAttribute="trailing" constant="5" id="0SG-qW-K8G"/>
+                            <constraint firstItem="JeS-Le-SeG" firstAttribute="leading" secondItem="6US-7T-99X" secondAttribute="leading" id="3gO-8P-5Me"/>
+                            <constraint firstItem="6US-7T-99X" firstAttribute="leading" secondItem="gZT-pQ-Rna" secondAttribute="leading" constant="5" id="A8a-8G-dGp"/>
+                            <constraint firstAttribute="bottom" secondItem="JeS-Le-SeG" secondAttribute="bottom" constant="5" id="DM0-KE-QwR"/>
+                            <constraint firstItem="bqZ-ea-X5C" firstAttribute="top" secondItem="6US-7T-99X" secondAttribute="top" id="GVB-4s-JQD"/>
+                            <constraint firstItem="bqZ-ea-X5C" firstAttribute="leading" secondItem="6US-7T-99X" secondAttribute="leading" id="H5L-2C-qQQ"/>
+                            <constraint firstItem="bqZ-ea-X5C" firstAttribute="trailing" secondItem="6US-7T-99X" secondAttribute="trailing" id="L5T-pY-kcL"/>
+                            <constraint firstItem="bqZ-ea-X5C" firstAttribute="bottom" secondItem="6US-7T-99X" secondAttribute="bottom" id="dsp-gr-bIo"/>
+                            <constraint firstItem="JeS-Le-SeG" firstAttribute="top" secondItem="6US-7T-99X" secondAttribute="bottom" constant="5" id="i0W-6T-N7Y"/>
+                            <constraint firstItem="JeS-Le-SeG" firstAttribute="trailing" secondItem="6US-7T-99X" secondAttribute="trailing" id="i41-5L-526"/>
+                            <constraint firstItem="6US-7T-99X" firstAttribute="top" secondItem="gZT-pQ-Rna" secondAttribute="top" constant="5" id="oho-Du-U3B"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="gZT-pQ-Rna" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Ywc-lj-OiB"/>
+                <constraint firstAttribute="trailing" secondItem="gZT-pQ-Rna" secondAttribute="trailing" id="bGX-cD-l9o"/>
+                <constraint firstAttribute="bottom" secondItem="gZT-pQ-Rna" secondAttribute="bottom" id="ezy-FB-0eC"/>
+                <constraint firstItem="gZT-pQ-Rna" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="xUF-Z7-nOm"/>
+            </constraints>
+            <size key="customSize" width="103" height="125"/>
+            <connections>
+                <outlet property="seatLabel" destination="fyg-8g-oMp" id="GgK-bh-UFW"/>
+                <outlet property="seatSelectionBtn" destination="bqZ-ea-X5C" id="hMc-ME-3hS"/>
+                <outlet property="seatView" destination="6US-7T-99X" id="eiD-s3-SHG"/>
+            </connections>
+            <point key="canvasLocation" x="176.08695652173915" y="143.63839285714286"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

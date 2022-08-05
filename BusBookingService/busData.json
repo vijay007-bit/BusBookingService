@@ -1,0 +1,626 @@
+{
+
+   "status": true,
+
+   "message": "Successfully found bus seats ",
+
+   "data": {
+
+       "id": "627f66dd66ac87a11ec4828f",
+
+       "bus_name": "FRDW01",
+
+       "bus_brand": "XXXXXXXX",
+
+       "bus_model_no": "XXXXXXX",
+
+       "bus_amenities": [
+
+           "AC"
+
+       ],
+
+       "bus_type": "AC",
+
+       "bus_reg_no": "XXXXXXX",
+
+       "buslayoutId": {
+
+           "id": "6266c60b967e630d7cbdb530",
+
+           "max_seats": "40",
+
+           "layout": "4 X 3",
+
+           "name": "Bus2By2",
+
+           "combine_seats": [
+
+               [
+
+                   {
+
+                       "bus": 0,
+
+                       "type": "sleeper-pink",
+
+                       "seat_no": "A1",
+
+                       "is_ladies": true,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 1,
+
+                       "type": "sleeper-pink",
+
+                       "seat_no": "A2",
+
+                       "is_ladies": true,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 2,
+
+                       "type": "sleeper",
+
+                       "seat_no": "A3",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 3,
+
+                       "type": "sleeper",
+
+                       "seat_no": "A4",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 4,
+
+                       "type": "sleeper",
+
+                       "seat_no": "A5",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 5,
+
+                       "type": "sleeper",
+
+                       "seat_no": "A6",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 6,
+
+                       "type": "sleeper",
+
+                       "seat_no": "A7",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 7,
+
+                       "type": "sleeper",
+
+                       "seat_no": "A8",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 8,
+
+                       "type": "sleeper",
+
+                       "seat_no": "A9",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 9,
+
+                       "type": "sleeper",
+
+                       "seat_no": "A10",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   }
+
+               ],
+
+               [
+
+                   {
+
+                       "bus": 10,
+
+                       "type": "sleeper-pink",
+
+                       "seat_no": "B1",
+
+                       "is_ladies": true,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 11,
+
+                       "type": "sleeper-pink",
+
+                       "seat_no": "B2",
+
+                       "is_ladies": true,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 12,
+
+                       "type": "sleeper",
+
+                       "seat_no": "B3",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 13,
+
+                       "type": "sleeper",
+
+                       "seat_no": "B4",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 14,
+
+                       "type": "sleeper",
+
+                       "seat_no": "B5",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 15,
+
+                       "type": "sleeper",
+
+                       "seat_no": "B6",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 16,
+
+                       "type": "sleeper",
+
+                       "seat_no": "B7",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 17,
+
+                       "type": "sleeper",
+
+                       "seat_no": "B8",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 18,
+
+                       "type": "sleeper",
+
+                       "seat_no": "B9",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 19,
+
+                       "type": "sleeper",
+
+                       "seat_no": "B10",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   }
+
+               ],
+
+               [
+
+                   {
+
+                       "bus": 20,
+
+                       "type": "sleeper-pink",
+
+                       "seat_no": "C1",
+
+                       "is_ladies": true,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 21,
+
+                       "type": "sleeper-pink",
+
+                       "seat_no": "C2",
+
+                       "is_ladies": true,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 22,
+
+                       "type": "sleeper",
+
+                       "seat_no": "C3",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 23,
+
+                       "type": "sleeper",
+
+                       "seat_no": "C4",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 24,
+
+                       "type": "sleeper",
+
+                       "seat_no": "C5",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 25,
+
+                       "type": "sleeper",
+
+                       "seat_no": "C6",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 26,
+
+                       "type": "sleeper",
+
+                       "seat_no": "C7",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 27,
+
+                       "type": "sleeper",
+
+                       "seat_no": "C8",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 28,
+
+                       "type": "sleeper",
+
+                       "seat_no": "C9",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 29,
+
+                       "type": "sleeper",
+
+                       "seat_no": "C10",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   }
+
+               ],
+
+               [
+
+                   {
+
+                       "bus": 30,
+
+                       "type": "sleeper-pink",
+
+                       "seat_no": "D1",
+
+                       "is_ladies": true,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 31,
+
+                       "type": "sleeper-pink",
+
+                       "seat_no": "D2",
+
+                       "is_ladies": true,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 32,
+
+                       "type": "sleeper",
+
+                       "seat_no": "D3",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 33,
+
+                       "type": "sleeper",
+
+                       "seat_no": "D4",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 34,
+
+                       "type": "sleeper",
+
+                       "seat_no": "D5",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 35,
+
+                       "type": "sleeper",
+
+                       "seat_no": "D6",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 36,
+
+                       "type": "sleeper",
+
+                       "seat_no": "D7",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 37,
+
+                       "type": "sleeper",
+
+                       "seat_no": "D8",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 38,
+
+                       "type": "sleeper",
+
+                       "seat_no": "D9",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   },
+
+                   {
+
+                       "bus": 39,
+
+                       "type": "sleeper",
+
+                       "seat_no": "D10",
+
+                       "is_ladies": false,
+
+                       "seat_status": "empty"
+
+                   }
+               ]
+           ]
+
+       },
+
+       "final_total_fare": "86",
+
+       "tax": "5",
+
+       "tax_amount": "4.08",
+
+       "user_total_wallet_amount": 1612
+   }
+
+}
